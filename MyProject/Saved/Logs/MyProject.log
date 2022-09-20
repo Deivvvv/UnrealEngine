@@ -1019,3 +1019,36 @@ LogConfig: CVar [[QualityLevelMapping:high]] deferred - dummy variable created
 [2022.09.20-06.44.52:230][  0]LogSlate: Took 0.000108 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
 [2022.09.20-06.44.53:395][  3]LogSlate: Took 0.000188 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
 [2022.09.20-06.44.55:748][ 11]LogDerivedDataCache: C:/Users/Admin/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.012 and deleted 0 file(s) with total size 0 MiB.
+[2022.09.20-07.10.23:357][884]LogSlate: Took 0.021611 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2022.09.20-07.10.27:174][884]LogSlate: Window 'Save Level As' being destroyed
+[2022.09.20-07.10.27:403][884]LogUObjectHash: Compacting FUObjectHashTables data took   0.47ms
+[2022.09.20-07.10.27:471][884]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.09.20-07.10.27:472][884]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Minimal_Default1" FILE="../../../../../../UnrealEngineProject/MyProject/Content/Minimal_Default1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2022.09.20-07.10.27:477][884]LogUObjectHash: Compacting FUObjectHashTables data took   0.42ms
+[2022.09.20-07.10.27:516][884]LogSavePackage: Moving output files for package: /Game/Minimal_Default1
+[2022.09.20-07.10.27:516][884]LogSavePackage: Moving '../../../../../../UnrealEngineProject/MyProject/Saved/Minimal_Default1F82EF9C148B9176CC445C69EF08BE579.tmp' to '../../../../../../UnrealEngineProject/MyProject/Content/Minimal_Default1.umap'
+[2022.09.20-07.10.27:652][884]LogFileHelpers: Saving map 'Minimal_Default1' took 0.461
+[2022.09.20-07.10.27:652][884]Cmd: MAP LOAD FILE="../../../../../../UnrealEngineProject/MyProject/Content/Minimal_Default1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2022.09.20-07.10.27:652][884]LightingResults: New page: Lighting Build
+[2022.09.20-07.10.27:652][884]LoadErrors: New page: Loading map: Minimal_Default1.umap
+[2022.09.20-07.10.27:754][884]LogWorld: UWorld::CleanupWorld for Minimal_Default, bSessionEnded=true, bCleanupResources=true
+[2022.09.20-07.10.27:754][884]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.09.20-07.10.27:754][884]MapCheck: New page: Map Check
+[2022.09.20-07.10.27:754][884]LightingResults: New page: Lighting Build
+[2022.09.20-07.10.27:829][884]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.09.20-07.10.27:956][884]LogUObjectHash: Compacting FUObjectHashTables data took   0.45ms
+[2022.09.20-07.10.27:957][884]LogWorld: UWorld::CleanupWorld for Minimal_Default1, bSessionEnded=true, bCleanupResources=true
+[2022.09.20-07.10.28:002][884]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.09.20-07.10.28:008][884]LogUObjectHash: Compacting FUObjectHashTables data took   0.41ms
+[2022.09.20-07.10.28:012][884]LogUObjectHash: Compacting FUObjectHashTables data took   0.42ms
+[2022.09.20-07.10.28:017][884]LogAudio: Display: Audio Device (ID: 1) registered with world 'Minimal_Default1'.
+[2022.09.20-07.10.28:017][884]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2022.09.20-07.10.28:017][884]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.09.20-07.10.28:017][884]LogAIModule: Creating AISystem for world Minimal_Default1
+[2022.09.20-07.10.28:019][884]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2022.09.20-07.10.28:030][884]LogUObjectHash: Compacting FUObjectHashTables data took   0.41ms
+[2022.09.20-07.10.28:036][884]Cmd: MAP CHECKDEP NOCLEARLOG
+[2022.09.20-07.10.28:036][884]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,08ms to complete.
+[2022.09.20-07.10.28:036][884]LogFileHelpers: Loading map 'Minimal_Default1' took 0.385
+[2022.09.20-07.10.28:040][884]AssetCheck: New page: Asset Save: Minimal_Default1
+[2022.09.20-07.10.28:040][884]LogContentValidation: Display: Validating World /Game/Minimal_Default1.Minimal_Default1
