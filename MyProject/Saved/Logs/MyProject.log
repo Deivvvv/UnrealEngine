@@ -1052,3 +1052,35 @@ LogConfig: CVar [[QualityLevelMapping:high]] deferred - dummy variable created
 [2022.09.20-07.10.28:036][884]LogFileHelpers: Loading map 'Minimal_Default1' took 0.385
 [2022.09.20-07.10.28:040][884]AssetCheck: New page: Asset Save: Minimal_Default1
 [2022.09.20-07.10.28:040][884]LogContentValidation: Display: Validating World /Game/Minimal_Default1.Minimal_Default1
+[2022.09.20-07.10.49:601][321]LogSlate: Window 'Save Level As' being destroyed
+[2022.09.20-07.10.49:663][321]LogUObjectHash: Compacting FUObjectHashTables data took   0.46ms
+[2022.09.20-07.10.49:672][321]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.09.20-07.10.49:674][321]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Minimal_Default2" FILE="../../../../../../UnrealEngineProject/MyProject/Content/Minimal_Default2.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2022.09.20-07.10.49:678][321]LogUObjectHash: Compacting FUObjectHashTables data took   0.41ms
+[2022.09.20-07.10.49:689][321]LogSavePackage: Moving output files for package: /Game/Minimal_Default2
+[2022.09.20-07.10.49:689][321]LogSavePackage: Moving '../../../../../../UnrealEngineProject/MyProject/Saved/Minimal_Default2C26A62BC4A2EDAC596E1B6B56907DE7B.tmp' to '../../../../../../UnrealEngineProject/MyProject/Content/Minimal_Default2.umap'
+[2022.09.20-07.10.49:739][321]LogFileHelpers: Saving map 'Minimal_Default2' took 0.133
+[2022.09.20-07.10.49:739][321]Cmd: MAP LOAD FILE="../../../../../../UnrealEngineProject/MyProject/Content/Minimal_Default2.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2022.09.20-07.10.49:739][321]LightingResults: New page: Lighting Build
+[2022.09.20-07.10.49:739][321]LoadErrors: New page: Loading map: Minimal_Default2.umap
+[2022.09.20-07.10.49:778][321]LogWorld: UWorld::CleanupWorld for Minimal_Default1, bSessionEnded=true, bCleanupResources=true
+[2022.09.20-07.10.49:778][321]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.09.20-07.10.49:779][321]MapCheck: New page: Map Check
+[2022.09.20-07.10.49:779][321]LightingResults: New page: Lighting Build
+[2022.09.20-07.10.49:783][321]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.09.20-07.10.49:784][321]LogUObjectHash: Compacting FUObjectHashTables data took   0.43ms
+[2022.09.20-07.10.49:785][321]LogWorld: UWorld::CleanupWorld for Minimal_Default2, bSessionEnded=true, bCleanupResources=true
+[2022.09.20-07.10.49:785][321]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.09.20-07.10.49:791][321]LogUObjectHash: Compacting FUObjectHashTables data took   0.44ms
+[2022.09.20-07.10.49:796][321]LogUObjectHash: Compacting FUObjectHashTables data took   0.53ms
+[2022.09.20-07.10.49:800][321]LogAudio: Display: Audio Device (ID: 1) registered with world 'Minimal_Default2'.
+[2022.09.20-07.10.49:800][321]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2022.09.20-07.10.49:800][321]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.09.20-07.10.49:800][321]LogAIModule: Creating AISystem for world Minimal_Default2
+[2022.09.20-07.10.49:802][321]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2022.09.20-07.10.49:815][321]LogUObjectHash: Compacting FUObjectHashTables data took   0.42ms
+[2022.09.20-07.10.49:821][321]Cmd: MAP CHECKDEP NOCLEARLOG
+[2022.09.20-07.10.49:821][321]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,089ms to complete.
+[2022.09.20-07.10.49:821][321]LogFileHelpers: Loading map 'Minimal_Default2' took 0.082
+[2022.09.20-07.10.49:824][321]AssetCheck: New page: Asset Save: Minimal_Default2
+[2022.09.20-07.10.49:824][321]LogContentValidation: Display: Validating World /Game/Minimal_Default2.Minimal_Default2
